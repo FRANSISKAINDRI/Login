@@ -14,6 +14,12 @@
         android:theme="@style/Theme.Login"
         tools:targetApi="31">
         <activity
+            android:name=".TampilMahasiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TambahMahsiswaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
